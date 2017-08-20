@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*::selection {
+  background-color: #FFF59D;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+a {
+  color: orangered;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #3A4145;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', sans-serif;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+  max-width: 750px;
+}
+
+.top {
+  width: 100%;
+  margin: 5px 0 0 0;
+  padding: 15px 0px 15px 0px;
+}
+
+.menu {
+  width: 100%;
+  margin: 0 0 5px 0;
+  padding: 0 15px 15px 15px;
+  display: none;
+}
+
+.mid {
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
+
+.footer {
+  width: 100%;
+  margin: 5px 0 5px 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Exo', sans-serif;
+  display: inline-block;
+  font-size: 40px;
+}
+
+.youtube {
+  width: 100%;
+  height: 400px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  margin: 30px 0 0 0;
+  background-color: #3A4145;
+}
+
+.menu-item {
+  display: inline-block;
+  font-size: 24px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Bree Serif', sans-serif;
+  color: #3A4145;
+}
+
+.project {
+  width: 49%;
+  margin: 10px 0 5px 0;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  -webkit-transition: transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  -ms-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+.project-left {
+  margin-right: 10px;
+}
+
+.project-container {
+  margin: 20px 0 20px 0;
+}
+
+.project-container a {
+  color: #3A4145;
+}
+
+.text {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 20px 10px 20px;
+}
+
+.mid h1, h2, h3, h4, h5, {
+  margin-left: 10px;
+}
+
+.creators p {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 20px 10px 20px;
+}
+
+.hamburger {
+  margin-left: -15px;
+}
+
+.text a, .footer p a {
+  background-color: none;
+  color: inherit;
+  border-bottom: 3px solid #FFF59D;
+  box-shadow: inset 0 -4px 0 #FFF59D;
+  -webkit-box-shadow: inset 0 -4px 0 #FFF59D;
+  transition: background .15s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.text a:hover, .footer p a:hover {
+  background-color: #FFF59D;
+  text-decoration: none;
+}
+
+.stat {
+  text-align: center;
+}
+
+.hvr-underline-from-left:before {
+  background: #FFEB3B;
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 764px) {
+  .project {
+    width: 100%;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
